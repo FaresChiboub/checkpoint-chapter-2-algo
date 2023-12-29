@@ -1,0 +1,46 @@
+ALGORITHM Dot product
+VAR
+    ps:INTEGER :0 //procedure calculate in the variable ps
+    vectors:ARRAY
+    v1: parameter
+    v2 :parameter
+    n: size of the vectors
+    IR :{v1,v2}
+
+Using PROCEDURE 
+VAR
+    PROCEDURE dot_product(v1,v2,n)
+    VAR
+    1 //Write a procedure, called dot_product which calculates in the variable ps, 
+    //the dot(scalar) product of v1 and v2 (v1 and v2 are vectors of IR)
+   
+
+ PROCEDURE procedure_name(parameters)
+ VAR
+    ps,x1,x2,y1,y2 =INTEGER
+ BEGIN,
+ x1*x2+y1*y2=sum
+ IF (sum=0) THEN
+    write("two vectors are orthogonal")
+    ELSE 
+    Write (two vectors are not orthogonal)
+
+ END_IF
+ END
+     
+    2// 2) //Write an algorithm which determines, for n pairs of given vectors,
+    //whether two vectors of given IR are orthogonal,
+    //by calling the procedure defined in the previous question. 
+    //The dot product of two orthogonal vectors is zero.
+
+FUNCTION function_name(x1,x2,y1,y2) : return_INTEGER
+VAR
+    x1,x2,y1,y2=INTEGER
+BEGIN
+    sum=x1*x2,y1*y2
+    return sum
+    if (s=0) THEN
+    write("les deux vectors sont orthogonal")
+    ELSE
+    write(les deux vectors ne sont pas orthogonal)
+END
